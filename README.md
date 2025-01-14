@@ -42,8 +42,11 @@ The value function V(s) is computed as the average return from all episodes that
 ## Policy Definitions:
 
 Always Invest Policy: In every state, an investment of $100,000 is made to improve transition probabilities.
+
 Never Invest Policy: No investment is made, and transitions follow default probabilities.
+
 Discounted Rewards: Rewards obtained in future states are discounted using the factor 𝛾=0.996, reflecting the time value of money.
+
 Simulation: The process is simulated for a sufficient number of episodes to ensure convergence of the value estimates.
 
 ## Objective
